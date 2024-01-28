@@ -24,8 +24,43 @@ For that, import accuracy_score and confusion_matrix from the sci-kit learn metr
 
 Classification problem: our goal is to predict the flow 'Species' with given features
 
-Conclusion: 
+
+<h3>Steps to be followed:</h3>
+
+<b>Understanding the Problem:</b> 
+Familiarize yourself with the Iris flower dataset and the problem at hand. 
+Understand the features of the dataset and the goal of classifying iris flowers into different species.
+
+<b>Literature Review:</b>
+Conduct a literature review to understand existing approaches and models for multi-model classification. 
+This will help you identify best practices and state-of-the-art techniques.
+
+<b>Data Exploration:</b>
+Explore the Iris dataset to gain insights into its structure, features, and any patterns that may exist. 
+Visualize the data using plots and graphs to better understand the relationships between different features.
+
+<b>Preprocessing:</b>
+Clean and preprocess the data as needed. 
+This may involve handling missing values, encoding categorical variables, and scaling numerical features. 
+Ensure that the data is ready for model training.
+
+<b>Model Selection:</b>
+Research and experiment with different machine learning models suitable for multi-class classification. 
+Common models for this type of problem include decision trees, random forests, support vector machines, and neural networks.
+
+<b>Model Training:</b>
+Implement and train the selected models on the Iris dataset. 
+Fine-tune hyperparameters to achieve the best performance. 
+Use techniques like cross-validation to assess the model's generalization capabilities.
+
+<b>Evaluation:</b>
+Evaluate the performance of the trained models using appropriate metrics such as accuracy, precision, recall, and F1 score. 
+Compare the results to determine the most effective model for the Iris flower classification task.
+
+
+<b>Conclusion: </b>
 
 We took Iris Flowers dataset from kaggle. Studied statistical description of the dataset with pandas. 
 matplotlib and seaborn are used for plotting visualizations of various features and performed a logistic regression algorithm with sklearn to design a model 
 that classifies flowers into their species with accuracy score of 97.37%.
+
